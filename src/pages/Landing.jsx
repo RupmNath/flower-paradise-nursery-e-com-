@@ -1,4 +1,4 @@
-import Welcome_Heading from "../components/welcome_heading";
+import Welcome_Heading from "../components/Welcome_Heading";
 import Welcome_Para_Intro from "../components/Welcome_Para_Intro";
 import Welcome_Para from "../components/welcome_para";
 import "../styles/landing.css"

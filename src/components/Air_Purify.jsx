@@ -1,3 +1,4 @@
+import Product_Card from "./Product_Card";
 import PeaceLily from "../assets/plant_pics/peace_lily.jpg";
 import TransvaalDaisy from "../assets/plant_pics/transvaal_daisy.jpg";
 import SpiderPlant from "../assets/plant_pics/spider_plant.jpg";

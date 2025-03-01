@@ -1,4 +1,4 @@
-import Air_Purify from "./air_purify";
+import Air_Purify from "./Air_Purify";
 import Aromatic from "./Aromatic";
 
 const Product_List = () => {

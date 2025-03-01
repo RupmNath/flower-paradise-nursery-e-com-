@@ -1,5 +1,7 @@
+import Rupee from "../assets/rupeeIcon.png";
+
 const Product_Card = ({ card_title, img_src, price, flower_description }) => {
-    console.log(card_title, img_src, price, flower_description); // Debugging
+    console.log(card_title, img_src, price, flower_description);
 
     return (
         <div className="p-2">
@@ -9,7 +11,7 @@ const Product_Card = ({ card_title, img_src, price, flower_description }) => {
                     <h3 className="card-title">{card_title}</h3>
                     <h4 className="d-flex justify-content-center align-items-center">
                         Price: {price}
-                        <img src="/public/src/rupeeIcon.png" alt="rupee icon" />
+                        <img src={Rupee} alt="rupee icon" />
                     </h4>
                     <p className="card-text">{flower_description}</p>
                     <a href="#" className="btn btn-success">Add To Cart</a>
