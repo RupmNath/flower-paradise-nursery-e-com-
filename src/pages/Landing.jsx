@@ -8,7 +8,7 @@ const Landing = () => {
     const land_heading = {
         heading: "Welcome To Flower Paradise Nursery",
         sub_text: "Where Green Meets Serenity",
-        btn_link: "./products.jsx",
+        btn_link: "/products",
         btn_text: "Get Started"
     };
 
